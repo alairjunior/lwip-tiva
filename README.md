@@ -14,7 +14,7 @@ The port may also work with other microcontrollers and boards. If you were able 
 
 ## Compiling and running
 
-After executing the steps described in [Development Environment Setup](development-environment-setup), enter the repository root directory and execute the command:
+After executing the steps described in [Development Environment Setup](#development-environment-setup), enter the repository root directory and execute the command:
 
 ```
 ./compile.sh

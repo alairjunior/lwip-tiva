@@ -1,18 +1,32 @@
 # lwip-tiva
 
-This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontroller. The goal is to offer a project that can compile without modifying any of the source codes provided in lwIP nor the Tivaware driver library. 
+This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontroller. The goal is to offer a project that can compile without modifying any of the source codes provided by Texas Instruments nor the lwIP source code.
 
 ----
 
-# Platform
+# Usage
 
-We are using the EK-TM4C1294XL to implement and test the port. If you are using another platform, you may be required to change some files in order to get the port to work.
+## Supported Microcontrollers
+
+* TM4C1294NCPDT (EK-TM4C1294XL board)
+
+The port may also work with other microcontrollers and boards. If you were able to run the port with another MCU, please let us know.
+
+## Compiling and running
+
+After executing the steps described in [Development Environment Setup](development-environment-setup), enter the repository root directory and execute the command:
+
+```
+./compile.sh
+```
+
+If the command is successful, a directory named `build` will be created and the compiled examples will be available in that directory. The images to be flashed have the extension `.bin`.
 
 ----
 
 # Development Environment Setup
 
-We are using Ubuntu 16.04 in the development environment and the following instructions were executed only for this enviroment.
+We are using Ubuntu 16.04 as the development environment and the following instructions were tested only for that enviroment.
 
 
 ## Required Packages
@@ -125,3 +139,26 @@ and replacing it by:
 ```
 
 Compile again using `make`. This change should settle the problem. 
+
+### lwIP
+
+To get lwIP, go [here](http://git.savannah.nongnu.org/cgit/lwip.git) and download the file marked as `STABLE-2_1_2_RELEASE`. Extract the content of the file to the destination directory. In this case, we are going to use the `~/projects` directory. After unpacking it, create a symbolic link called lwip. This will make it easy to test updates of lwIP in the future.
+
+### lwip-tiva
+
+Clone this repository in `~/projects/lwip-tiva`. 
+
+
+### Suggested Directory Structure
+
+```
+.
+├── embedded
+│   ├── gcc-arm-none-eabi-8-2018-q4-major
+│   ├── lm4tools
+│   └── tivaware
+└── projects
+    ├── lwip
+    ├── lwip-STABLE-2_1_2_RELEASE
+    └── lwip-tiva
+```

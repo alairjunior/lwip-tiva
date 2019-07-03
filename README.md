@@ -2,7 +2,6 @@
 
 This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontroller. The goal is to offer a project that can compile without modifying any of the source codes provided by Texas Instruments nor the lwIP source code.
 
-----
 
 # Table of Contents
 
@@ -19,6 +18,7 @@ This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontrol
   * [Suggested Directory Structure](#suggested-directory-structure)
 - [Compiling and running](#compiling-and-running)
 
+----
 
 # Supported Microcontrollers
 
@@ -26,6 +26,7 @@ This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontrol
 
 The port may also work with other microcontrollers and boards. If you were able to run the port with another MCU, please let us know.
 
+----
 
 # Development Environment Setup
 
@@ -165,6 +166,8 @@ Clone this repository in `~/projects/lwip-tiva`.
     ├── lwip-STABLE-2_1_2_RELEASE
     └── lwip-tiva
 ```
+
+----
 
 # Compiling and running
 

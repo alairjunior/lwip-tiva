@@ -6,7 +6,7 @@ This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontrol
 # Table of Contents
 
 - [lwip-tiva](#lwip-tiva)
-- [Supported Microcontrollers](#supported-microcontrollers)
+- [Supported Hardware](#supported-hardware)
 - [Development Environment Setup](#development-environment-setup)
   * [Required Packages](#required-packages)
   * [Cross Compiler](#cross-compiler)

@@ -24,7 +24,7 @@ This is a port of lwIP 2.1.2 to the Texas Instruments TM4C1294NCPDT microcontrol
 
 |MCU           | Tested Board   | Bare Metal | RTOS |
 |--------------|----------------|------------|------|
-|TM4C1294NCPDT | EK-TM4C1294XL--|  Supported | No   |
+|TM4C1294NCPDT | EK-TM4C1294XL  |  Supported | No   |
 
 
 This port may also work with other microcontrollers and boards. If you were able to run the port with other hardware, please let us know.

@@ -29,6 +29,14 @@
  * Author: Adam Dunkels <adam@sics.se>
  *
  */
+ 
+ /**
+ * 
+ * Minor modifications to work with lwIP 2.1.2
+ * Author: Alair Dias Junior <alair@alair.me>
+ * 
+ */
+ 
 #ifndef __CC_H__
 #define __CC_H__
 

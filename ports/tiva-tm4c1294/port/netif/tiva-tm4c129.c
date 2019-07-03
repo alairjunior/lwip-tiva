@@ -43,6 +43,13 @@
  * interface driver for lwIP.
  *
  */
+ 
+/**
+ * 
+ * Minor modifications to work with lwIP 2.1.2
+ * Author: Alair Dias Junior <alair@alair.me>
+ * 
+ */
 
 #include "lwip/opt.h"
 #include "lwip/def.h"

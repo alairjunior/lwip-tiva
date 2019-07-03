@@ -24,9 +24,10 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
  * OF SUCH DAMAGE.
  *
- * This file is part of the lwIP TCP/IP stack.
+ * This file was modified from the one provided as part of the lwIP TCP/IP stack.
  *
- * Author: Adam Dunkels <adam@sics.se>
+ * Original Author: Adam Dunkels <adam@sics.se>
+ * Modification: Alair Dias Junior <alair@alair.me>
  *
  */
 #include <stdint.h>

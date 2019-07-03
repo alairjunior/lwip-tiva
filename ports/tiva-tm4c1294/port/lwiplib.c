@@ -18,7 +18,14 @@
 // CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
 // DAMAGES, FOR ANY REASON WHATSOEVER.
 // 
-// This is part of revision 2.1.4.178 of the Tiva Utility Library.
+// The original file was part of revision 2.1.4.178 of the Tiva Utility Library.
+// 
+//
+// The original file was developped targeting version 1.4.1 of lwIP
+// The content was modified to work with lwIP version 2.1.2
+//
+// Modification: Alair Dias Junior <alair@alair.me>
+//
 //
 //*****************************************************************************
 

@@ -21,6 +21,13 @@
 // This is part of revision 2.1.4.178 of the Tiva Utility Library.
 //
 //*****************************************************************************
+/**
+ * 
+ * Minor modifications to work with lwIP 2.1.2
+ * Author: Alair Dias Junior <alair@alair.me>
+ * 
+ */
+
 
 #ifndef __LWIPLIB_H__
 #define __LWIPLIB_H__
@@ -75,8 +82,6 @@ extern "C"
 #include "lwip/priv/tcp_priv.h"
 #include "lwip/init.h"
 #include "netif/tivaif.h"
-//#include "lwip/tcp_impl.h"
-//#include "lwip/timers.h"
 
 //*****************************************************************************
 //

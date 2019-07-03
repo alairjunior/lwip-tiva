@@ -1,6 +1,6 @@
 //*****************************************************************************
 //
-// startup_gcc.c - Startup code for use with GNU tools.
+// startup.c - Startup code for use with GNU tools.
 //
 // Copyright (c) 2013-2017 Texas Instruments Incorporated.  All rights reserved.
 // Software License Agreement
